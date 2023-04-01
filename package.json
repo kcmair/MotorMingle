@@ -13,10 +13,10 @@
     "url": "https://github.com/aaronhathaway1/MotorMingle/issues"
   },
   "scripts": {
-    "prestart": "NODE_ENV=production node ./build/swagger.js",
+    "prestart": "node ./build/swagger.js",
     "start": "node ./build/server.js",
     "build": "tsc -p .",
-    "dev": "NODE_ENV=development node ./swagger.ts & nodemon ./server.ts",
+    "dev": "node ./swagger.ts & nodemon ./server.ts",
     "swagger": "node ./swagger.ts"
   },
   "homepage": "https://github.com/aaronhathaway1/MotorMingle#readme",
@@ -41,6 +41,7 @@
     "@types/cors": "^2.8.13",
     "@types/express": "^4.17.17",
     "@types/express-session": "^1.17.6",
+    "@types/morgan": "^1.9.4",
     "@types/node": "^18.14.6",
     "@types/nodemon": "^1.19.2",
     "@types/passport": "^1.0.12",
