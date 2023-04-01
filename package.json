@@ -30,6 +30,7 @@
     "mongoose": "^7.0.1",
     "passport": "^0.6.0",
     "passport-google-oauth20": "^2.0.0",
+    "session": "^0.1.0",
     "swagger-autogen": "^2.23.1",
     "swagger-ui-express": "^4.6.2",
     "ts-node": "^10.9.1",
